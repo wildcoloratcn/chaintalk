@@ -1,5 +1,19 @@
 # ChainTalk Frontend
 
+<div align="center">
+
+![ChainTalk Homepage](./git_readme_images/homepage_image.png)
+
+<h3>🔗 Decentralized Communication Platform</h3>
+
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-chaintalk.vercel.app-blue?style=for-the-badge)](https://chaintalk.vercel.app)
+[![Built with Next.js](https://img.shields.io/badge/Built_with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Powered by Ethereum](https://img.shields.io/badge/Powered_by-Ethereum-627EEA?style=for-the-badge&logo=ethereum)](https://ethereum.org)
+
+---
+
+</div>
+
 This is the frontend application for ChainTalk, a decentralized messaging platform built on Ethereum blockchain. The frontend is built with Next.js and provides a modern, responsive interface for interacting with the ChainTalk smart contract.
 
 ## Features
@@ -133,10 +147,6 @@ The ChainTalk smart contract is built using industry-standard tools and framewor
 2. **Testing**: Comprehensive testing on Sepolia testnet
 3. **Deployment**: Deployed to Sepolia using Alchemy infrastructure
 4. **Frontend Integration**: Connected via ethers.js and Alchemy providers
-
-## Font Optimization
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a modern font family designed for optimal readability.
 
 
 ## Contributing
