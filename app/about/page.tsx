@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
       <header className="border-b border-gray-700 bg-black/20 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
+            <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -17,13 +18,13 @@ export default function About() {
                 <h1 className="text-2xl font-bold text-white">Developer Showcase</h1>
                 <p className="text-sm text-gray-300">Full-Stack Web3 Development Capabilities</p>
               </div>
-            </div>
-            <a
+            </Link>
+            <Link
               href="/"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 py-2 rounded-lg font-medium transition-all duration-200"
             >
               ← Back to App
-            </a>
+            </Link>
           </div>
         </div>
       </header>
@@ -302,12 +303,12 @@ export default function About() {
             Every component showcases professional development practices and industry standards.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a
+            <Link
               href="/"
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-200 transform hover:scale-105"
             >
               Try Live Demo
-            </a>
+            </Link>
             <a
               href="https://github.com/wildcoloratcn/chaintalk"
               target="_blank"
