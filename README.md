@@ -8,13 +8,18 @@
 
 [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-chaintalk.vercel.app-blue?style=for-the-badge)](https://chaintalk.vercel.app)
 [![Built with Next.js](https://img.shields.io/badge/Built_with-Next.js-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
 [![Powered by Ethereum](https://img.shields.io/badge/Powered_by-Ethereum-627EEA?style=for-the-badge&logo=ethereum)](https://ethereum.org)
+
+[![Hardhat](https://img.shields.io/badge/Built_with-Hardhat-FFF100?style=for-the-badge&logo=ethereum)](https://hardhat.org)
+[![OpenZeppelin](https://img.shields.io/badge/Secured_by-OpenZeppelin-4E4E4E?style=for-the-badge)](https://openzeppelin.com)
+[![Contract on Etherscan](https://img.shields.io/badge/📄_Contract-Etherscan-21325B?style=for-the-badge)](https://sepolia.etherscan.io/address/0x23ea9d4aC270A0be9E8035bdb9a5c24f8Ff3499d)
 
 ---
 
 </div>
 
-This is the frontend application for ChainTalk, a decentralized messaging platform built on Ethereum blockchain. The frontend is built with Next.js and provides a modern, responsive interface for interacting with the ChainTalk smart contract.
+This is a **full-stack Web3 application** demonstrating complete blockchain development capabilities. Built with **Solidity smart contracts** using **Hardhat** development environment and **OpenZeppelin** security standards, paired with a modern **Next.js** frontend deployed on **Vercel's serverless infrastructure**. ChainTalk showcases end-to-end decentralized application development from smart contract architecture to production-ready user interfaces.
 
 ## Features
 
